@@ -104,7 +104,6 @@ html {
 nav {
     position: fixed !important;
     width: 100%;
-    background: transparent;
     top: 0;
     left: 0;
     z-index: 9999;
@@ -181,20 +180,22 @@ nav ul li a:hover::after {
 
 }
 
+#banner-part .banner-slider .banner .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    padding-top: 230px;
+    padding-bottom: 280px;
+
+}
+
 #banner-part .banner-slider .bannertwo {
     background: url(../images/banner2.png) no-repeat center;
     background-size: cover;
 }
 
 
-#banner-part .banner-slider .banner .overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .7);
-    padding-top: 215px;
-    padding-bottom: 255px;
 
-}
 
 #banner-part .banner-slider .banner .overlay .banner-text {
     text-align: center;
@@ -227,9 +228,6 @@ nav ul li a:hover::after {
     font-size: 72px;
     margin-top: -5px;
 
-
-
-
 }
 
 #banner-part .banner-slider .banner .overlay .banner-text .tasty {
@@ -237,7 +235,6 @@ nav ul li a:hover::after {
     color: white;
     font-weight: 400;
     font-size: 72px;
-    margin-top: -20px;
     margin-left: 15px;
 
 
@@ -501,6 +498,7 @@ nav ul li a:hover::after {
 #contact #banner-part .banner .overlay .banner-text .ban-img img {
     border-radius: 35px;
     border: 1px solid #4a374d;
+    box-shadow: 0px 10px 100px 0px rgb(255 255 255 / 15%);
 }
 
 #contact #banner-part .banner .overlay .banner-text .ban-img .overlay-btn {
@@ -754,6 +752,7 @@ nav ul li a:hover::after {
 
     border-radius: 35px;
     border: 1px solid #2e3031;
+    box-shadow: 0px 10px 100px 0px rgb(255 255 255 / 15%);
 
 }
 
@@ -771,7 +770,7 @@ nav ul li a:hover::after {
     font-family: 'Yeseva One', cursive;
     font-weight: 400;
     color: #ea4f33;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -972,10 +971,12 @@ indexabout part about part end
     width: 150px;
     border: 1px solid #2d2e2e;
     border-radius: 50%;
+    box-shadow: 0px 10px 100px 0px rgb(255 255 255 / 15%);
 }
 
 #happy-hour .mother-happy-img .left .happy-img {
     position: relative;
+    z-index: 2;
 }
 
 #happy-hour .mother-happy-img .left .happy-img .overlay {
@@ -994,6 +995,7 @@ indexabout part about part end
 
 #happy-hour .mother-happy-img .right .happy-img {
     position: relative;
+    z-index: 2;
 }
 
 #happy-hour .mother-happy-img .right .happy-img .overlay3 {
@@ -1278,8 +1280,9 @@ indexabout part about part end
 }
 
 #gallery-part .btn img {
-    border-radius: 29px;
+    border-radius: 35px;
     border: 1px solid #282929;
+    box-shadow: 0px 10px 100px 0px rgb(255 255 255 / 15%);
 }
 
 #gallery-part .btn a {
@@ -1945,7 +1948,7 @@ indexgalllery gallery part end
 
 }
 
-.backtotop i{
+.backtotop i {
     color: white;
 }
 

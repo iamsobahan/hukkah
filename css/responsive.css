@@ -1,9 +1,20 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
 
+
+    /* common css start */
+
+    body {
+        overflow-x: hidden;
+        ;
+    }
+
+    /* common css end */
+
     /* nav part start */
 
     nav {
         padding: 20px 0 !important;
+
     }
 
     nav button i {
@@ -12,6 +23,9 @@
 
     nav ul {
         padding-top: 20px;
+        background: #000000;
+        text-align: center;
+
     }
 
     nav ul li .active {
@@ -66,7 +80,7 @@
 
     #banner-part .banner-slider .banner .overlay .banner-text .tasty {
         font-size: 32px;
-        margin-top: -10px;
+
         margin-left: 0;
     }
 
@@ -113,20 +127,23 @@
         padding-top: 50px;
     }
 
-    #contact #banner-part .banner .overlay .banner-text .ban-img .overlay-btn .go {
-        font-size: 18px;
+    #contact #banner-part .banner .overlay .banner-text .ban-img .overlay-btn {
+        font-size: 15px;
     }
 
     #contact #banner-part .banner .overlay .banner-text .counter-down {
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: flex-start;
         padding-top: 50px;
+        align-items: flex-start;
     }
 
     #contact #banner-part .banner .overlay .banner-text .counter-down .counter-mother {
         width: 50px;
         padding-bottom: 20px;
     }
+
+
 
 
     /* indexcontact banner part end */
@@ -407,6 +424,10 @@
         padding-top: 20px;
     }
 
+    #form-part .form-smoke {
+        display: none;
+    }
+
     #form-part .form-info #name {
         padding: 15px;
         width: 140px;
@@ -434,32 +455,30 @@
     }
 
     #form-part .form-info #date {
-        width: 80px;
+        width: 85px;
         padding: 15px;
     }
 
     #form-part .form-info #time {
-        width: 80px;
+        width: 85px;
         padding: 15px;
     }
 
     #form-part .form-info .message {
-        width: 300px;
+        width: 292px;
         height: 120px;
         padding: 15px;
     }
 
     #form-part .form-info a img {
-        width: 300px;
+        width: 292px;
     }
 
     /* form part end */
 
     /* testimonial part start */
 
-    #testimonial-part {
-        padding-bottom: 60px;
-    }
+
 
     #testimonial-part .title {
         padding-bottom: 50px;
@@ -533,7 +552,7 @@
     /* footer part start */
 
     #footer-part .row {
-        padding-top: 0;
+        padding-top: 60px;
     }
 
     #footer-part .row .footer-mother {
@@ -635,6 +654,13 @@
     /* indexgallery gallery  part end */
 
 
+    /* back to top btn start */
+
+    .backtotop {
+        padding: 20px 10px;
+    }
+
+
 
 
 
@@ -648,11 +674,21 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    /* common css start */
+
+    body {
+        overflow-x: hidden;
+        ;
+    }
+
+    /* common css end */
+
 
     /* nav part start */
 
     nav {
         padding: 20px 0 !important;
+
     }
 
 
@@ -661,7 +697,9 @@
     }
 
     nav ul {
-        padding-top: 20px;
+
+        background: black;
+        text-align: center;
     }
 
     nav ul li .active {
@@ -713,7 +751,6 @@
 
     #banner-part .banner-slider .banner .overlay .banner-text .tasty {
         font-size: 32px;
-        margin-top: -10px;
         margin-left: 0;
     }
 
@@ -772,6 +809,15 @@
     }
 
     /* indexhome about part end */
+
+    /* indexabout about part start */
+
+    #about #about-part .about-img .venoboxone {
+        transform: translate(13%, -67%);
+    }
+
+    /* indexabout about part end */
+
 
     /* about part start */
 
@@ -953,7 +999,7 @@
     }
 
     #team-part .team-smoke {
-        top: 36%;
+        top: 44%;
         left: 53%;
         z-index: -1;
     }
@@ -1013,18 +1059,13 @@
 
     /* form part start */
 
-    #form-part .form-info {
-        text-align: center;
-    }
+
 
     #form-part {
         padding-top: 150px;
         padding-bottom: 0;
     }
 
-    #form-part .title {
-        justify-content: center;
-    }
 
     #form-part .title .happy {
         font-size: 30px;
@@ -1034,48 +1075,50 @@
 
     #form-part .form-info #name {
         padding: 15px;
-        width: 140px;
+        width: 250px;
     }
 
     #form-part .form-info #last {
         padding: 15px;
-        width: 140px;
+        width: 250px;
     }
 
     #form-part .form-info #email {
         padding: 15px;
-        width: 140px;
+        width: 250px;
+
     }
 
     #form-part .form-info #teli {
         padding: 15px;
-        width: 140px;
+        width: 250px;
+
     }
 
     #form-part .form-info #member {
-        width: 106px;
+        width: 166px;
         padding: 15px;
 
     }
 
     #form-part .form-info #date {
-        width: 80px;
+        width: 166px;
         padding: 15px;
     }
 
     #form-part .form-info #time {
-        width: 80px;
+        width: 166px;
         padding: 15px;
     }
 
     #form-part .form-info .message {
-        width: 442px;
+        width: 100%;
         height: 120px;
         padding: 15px;
     }
 
     #form-part .form-info a img {
-        width: 442px;
+        width: 100%;
     }
 
     /* form-part start */
@@ -1083,7 +1126,7 @@
     /* testimonial part start */
 
     #testimonial-part {
-        padding-bottom: 60px;
+
         position: relative;
     }
 
@@ -1162,11 +1205,11 @@
 
     /* indexgallery footer part end */
 
-    /* footer part start */
-
     #footer-part .row {
         padding-top: 0px;
     }
+
+    /* footer part start */
 
     #footer-part .row .footer-mother {
         padding-bottom: 20px;
@@ -1260,6 +1303,12 @@
 
     /* indexgallery gallery part end */
 
+    /* back to top start */
+
+    .backtotop {
+        padding: 25px 12px;
+    }
+
 
 
 
@@ -1268,10 +1317,20 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    /* common css start */
+
+    body {
+        overflow-x: hidden;
+        ;
+    }
+
+    /* common css end */
+
     /* nav part start */
 
     nav {
         padding: 20px 0 !important;
+
     }
 
 
@@ -1280,7 +1339,8 @@
     }
 
     nav ul {
-        padding-top: 20px;
+        background: black;
+        text-align: center;
     }
 
     nav ul li .active {
@@ -1324,7 +1384,7 @@
 
     #banner-part .banner-slider .banner .overlay .banner-text .tasty {
         font-size: 32px;
-        margin-top: -10px;
+
         margin-left: 0;
     }
 
@@ -1387,6 +1447,11 @@
         justify-content: center;
     }
 
+
+    #about #about-part .about-img .about-smoke img {
+        transform: translate(-4%, -4%);
+    }
+
     /* indexabout about part end */
 
     /* about part start */
@@ -1400,6 +1465,10 @@
         justify-content: end;
     }
 
+    #about-part .about-img .venoboxone {
+        transform: translate(93%, -67%);
+    }
+
 
     #about-part .about-img img {
         width: auto;
@@ -1407,7 +1476,7 @@
 
     #about-part .about-img .about-smoke img {
         width: 50%;
-        left: 8%;
+        left: 24%;
         z-index: 1;
     }
 
@@ -1713,6 +1782,7 @@
     #testimonial-part {
         position: relative;
         margin-top: 60px;
+
     }
 
     #testimonial-part .title .happy::after {
@@ -1728,7 +1798,7 @@
         transform: translateX(36%);
     }
 
-    #testimonial-part .title .happy {
+    .title .happy {
         font-size: 30px;
     }
 
@@ -1867,6 +1937,15 @@
 
     /* indexgallery gallery part end */
 
+    /* back to top start */
+
+
+    .backtotop {
+        padding: 30px 20px;
+    }
+
+    /* back to top end */
+
 
 
 
@@ -1875,6 +1954,15 @@
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* common css start */
+
+    body {
+        overflow-x: hidden;
+        ;
+    }
+
+    /* common css end */
 
     /* about part start */
 
@@ -1970,6 +2058,11 @@
 
     #happy-hour .happy-right-text {
         margin-top: 100px;
+    }
+
+
+    #happy-hour .happy-right-text::after {
+        left: -65px;
     }
 
 
@@ -2161,17 +2254,17 @@
     }
 
     #form-part .form-info #member {
-        width: 195px;
+        width: 199px;
 
     }
 
     #form-part .form-info #date {
-        width: 195px;
+        width: 199px;
 
     }
 
     #form-part .form-info #time {
-        width: 195px;
+        width: 199px;
 
     }
 
@@ -2230,16 +2323,11 @@
 
     /* testimonial part end */
 
-    /* indexabout footer part start */
 
-    #about #footer-part .row {
-        padding-top: 0px;
-    }
 
-    /* indexabout footer part end */
+
 
     /* footer part start */
-
     #footer-part .row {
         padding-top: 60px;
     }
@@ -2305,6 +2393,8 @@
     }
 
     /* indexgallery gallery part end */
+
+
 
 
 }
